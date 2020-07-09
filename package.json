@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jordidaigle/ReadMeGen/issues"
   },
-  "homepage": "https://github.com/jordidaigle/ReadMeGen#readme"
+  "homepage": "https://github.com/jordidaigle/ReadMeGen#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.0"
+  }
 }
