@@ -1,0 +1,20 @@
+{
+  "name": "ReadMeGen",
+  "version": "1.0.0",
+  "description": "Here's my ReadMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordidaigle/ReadMeGen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordidaigle/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/jordidaigle/ReadMeGen#readme"
+}
