@@ -1,5 +1,6 @@
+  [license-shield]: https://img.shields.io/github/license/github/REadMe.svg?style=flat-square
   [license-url]: https://github.com/github/REadMe/blob/master/LICENSE.txt
-  [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License.txt][license-shield]][license-url]
+  [![License.txt][license-shield]][license-url]
   # REadMe
   ## Description
   Generates ReadMe's
