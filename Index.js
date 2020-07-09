@@ -1,25 +1,10 @@
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
-
+//Check for dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
 // const generateMarkdown = require("generateMarkdown.js");
 var badge;
 
+//Start inquirer list of questions
 function userInput() {
   inquirer
     .prompt([
@@ -83,6 +68,7 @@ function userInput() {
 
     ])
 
+    //reference which license they chose
     .then(response => {
       if(response.license=="la") {
         badge="<img src='https://img.shields.io/badge/LA-LicenseA-red'>";
@@ -107,6 +93,7 @@ function writeToFile(file, data) {
   })
 }
 
+//Generate Markdown for new READme
 function generateMarkdown({ username, email, projecttitle, description, installation, usage, testing, license}) {
   projecttitleDashed = projecttitle.replace(/\s+/g, '-');
   return `
@@ -145,6 +132,6 @@ function generateMarkdown({ username, email, projecttitle, description, installa
   - Email: ${email}
   `
 }
-
+//Call function
 userInput()
   
