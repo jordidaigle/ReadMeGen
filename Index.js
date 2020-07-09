@@ -110,10 +110,9 @@ function writeToFile(file, data) {
 function generateMarkdown({ username, email, projecttitle, description, installation, usage, testing, license}) {
   projecttitleDashed = projecttitle.replace(/\s+/g, '-');
   return `
-
   [license-shield]: https://img.shields.io/github/license/${username}/${projecttitleDashed}.svg?style=flat-square
   [license-url]: https://github.com/${username}/${projecttitleDashed}/blob/master/LICENSE.txt
-  [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License.txt][license-shield]][license-url]
+  [![License.txt][license-shield]][license-url]
   # ${projecttitleDashed}
   ## Description
   ${description}
