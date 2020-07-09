@@ -1,13 +1,3 @@
-
-  [contributors-shield]: https://img.shields.io/github/contributors/github/REadMe.svg?style=flat-square
-  [contributors-url]: https://github.com/github/REadMe/graphs/contributors
-  [forks-shield]: https://img.shields.io/github/forks/github/REadMe.svg?style=flat-square
-  [forks-url]: https://github.com/github/REadMe/network/members
-  [stars-shield]: https://img.shields.io/github/stars/github/REadMe.svg?style=flat-square
-  [stars-url]: https://github.com/github/REadMe/stargazers
-  [issues-shield]: https://img.shields.io/github/issues/github/REadMe.svg?style=flat-square
-  [issues-url]: https://github.com/github/REadMe/issues
-  [license-shield]: https://img.shields.io/github/license/github/REadMe.svg?style=flat-square
   [license-url]: https://github.com/github/REadMe/blob/master/LICENSE.txt
   [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License.txt][license-shield]][license-url]
   # REadMe

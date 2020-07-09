@@ -110,14 +110,7 @@ function writeToFile(file, data) {
 function generateMarkdown({ username, email, projecttitle, description, installation, usage, testing, license}) {
   projecttitleDashed = projecttitle.replace(/\s+/g, '-');
   return `
-  [contributors-shield]: https://img.shields.io/github/contributors/${username}/${projecttitleDashed}.svg?style=flat-square
-  [contributors-url]: https://github.com/${username}/${projecttitleDashed}/graphs/contributors
-  [forks-shield]: https://img.shields.io/github/forks/${username}/${projecttitleDashed}.svg?style=flat-square
-  [forks-url]: https://github.com/${username}/${projecttitleDashed}/network/members
-  [stars-shield]: https://img.shields.io/github/stars/${username}/${projecttitleDashed}.svg?style=flat-square
-  [stars-url]: https://github.com/${username}/${projecttitleDashed}/stargazers
-  [issues-shield]: https://img.shields.io/github/issues/${username}/${projecttitleDashed}.svg?style=flat-square
-  [issues-url]: https://github.com/${username}/${projecttitleDashed}/issues
+
   [license-shield]: https://img.shields.io/github/license/${username}/${projecttitleDashed}.svg?style=flat-square
   [license-url]: https://github.com/${username}/${projecttitleDashed}/blob/master/LICENSE.txt
   [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![License.txt][license-shield]][license-url]
