@@ -22,11 +22,11 @@
   ## Usage
   Run the application with the CLI command node index.js and follow the prompts.
   ## Testing
-  Run the tests with the CLI command none.
+  Run the tests with the CLI command node index.js
   ## License
-  This project is licensed under the la License - see the [LICENSE.txt](https://github.com/jordidaigle/READme-Generator/blob/master/LICENSE.txt) file for details
+  This project is licensed under the la License - see the [License.txt](https://github.com/jordidaigle/ReadMeGen/blob/master/License.txt) file for details
   ## Contributing
-  Please read [CONTRIBUTING.md](https://github.com/jordidaigle/READme-Generator/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+  Please read [CONTRIBUTING.md](https://github.com/jordidaigle/READme-Generator/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.(page pending)
   ## Questions and Feedback
   Please contact me using one of the following:
   

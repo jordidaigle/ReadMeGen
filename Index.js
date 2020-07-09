@@ -135,9 +135,9 @@ function generateMarkdown({ username, email, projecttitle, description, installa
   ## Testing
   Run the tests with the CLI command ${testing}.
   ## License
-  This project is licensed under the ${license} License - see the [LICENSE.txt](https://github.com/${username}/${projecttitleDashed}/blob/master/LICENSE.txt) file for details
+  This project is licensed under the ${license} License - see the [LICENSE.txt](https://github.com/${username}/${projecttitleDashed}/blob/master/License.txt) file for details
   ## Contributing
-  Please read [CONTRIBUTING.md](https://github.com/${username}/${projecttitleDashed}/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+  Please read [CONTRIBUTING.md](https://github.com/${username}/${projecttitleDashed}/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.(page pending)
   ## Questions and Feedback
   Please contact me using one of the following:
   
