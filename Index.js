@@ -30,29 +30,35 @@ function userInput() {
       },
       {
         type: "input",
-        message: "Describe your Projet",
+        message: "Describe your Project",
         name: "description"
       },
       {
         type: "input",
-        message: "Installation Instructions!",
+        message: "What command do you give in the CLI?",
         name: "installation"
       },
       {
         type: "input",
-        message: "What is the Usage?",
+        message: "What command initiates the program? (same as before)",
         name: "usage"
       },
       {
         type: "input",
-        message: "What testing have you done?",
+        message: "Testing?",
         name: "testing"
       },
       {
         type: "input",
-        message: "Make some contributions",
+        message: "Give some contributions",
         name: "contributions"
       },
+      {
+        type: "input",
+        message: "What is the path for this project's screenshot?",
+        default: "assets/img/screenshot.gif",
+        name: "ImgSRC",
+    },
       {
         type: "expand",
         message: "What license is this under? (A or B)",
@@ -124,10 +130,11 @@ function generateMarkdown({ username, email, projecttitle, description, installa
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
-  - [Additional Information](#additional-information)
   - [License](#license)
   - [Contributing](#contributing)
   - [Questions and Feedback](#questions-and-feedback)
+  ## Screenshots
+  <img src="${ImgSRC}" alt="${projecttitle}"/>
   ## Installation
   Download (and unpack) or clone the repo, then using a CLI run the ${installation} command.
   ## Usage
