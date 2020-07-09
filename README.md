@@ -17,7 +17,8 @@
   - [Contributing](#contributing)
   - [Questions and Feedback](#questions-and-feedback)
   ## Screenshots
-  ![Project] (http://full/path/to/github.com/jordidaigle/ReadMeGen/blob/master/screenshot.jpg "Generator")
+  ![Alt text](http://full/path/to/https://github.com/jordidaigle/ReadMeGen/blob/master/screenshot.jpg "Optional title")
+
   ## Installation
   Download (and unpack) or clone the repo, then using a CLI run the node index.js command.
   ## Usage
