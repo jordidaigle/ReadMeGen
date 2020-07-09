@@ -54,12 +54,6 @@ function userInput() {
         name: "contributions"
       },
       {
-        type: "input",
-        message: "What is the path for this project's screenshot?",
-        default: "assets/img/screenshot.gif",
-        name: "ImgSRC",
-    },
-      {
         type: "expand",
         message: "What license is this under? (A or B)",
         name: "license",
@@ -134,7 +128,6 @@ function generateMarkdown({ username, email, projecttitle, description, installa
   - [Contributing](#contributing)
   - [Questions and Feedback](#questions-and-feedback)
   ## Screenshots
-  <img src="${ImgSRC}" alt="${projecttitle}"/>
   ## Installation
   Download (and unpack) or clone the repo, then using a CLI run the ${installation} command.
   ## Usage
@@ -147,9 +140,8 @@ function generateMarkdown({ username, email, projecttitle, description, installa
   Please read [CONTRIBUTING.md](https://github.com/${username}/${projecttitleDashed}/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
   ## Questions and Feedback
   Please contact me using one of the following:
-  |---|---|
+  
   - | Github: [${username}](https://gist.github.com/${username}) |
-  |---|---|
   - Email: ${email}
   `
 }
