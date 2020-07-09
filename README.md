@@ -4,7 +4,7 @@
   [![License.txt][license-shield]][license-url]
   # READme-Generator
   ## Description
-  It's a tool to help developer spend less time writing READme's and more time coding. It generates a READme skeleton by answering a few simple questions.
+  It's a tool to help developers spend less time writing READme's and more time coding. It generates a READme skeleton by answering a few simple questions.
   ## Table of Contents
   - [Title](#title)
   - [Description](#description)
