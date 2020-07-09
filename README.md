@@ -17,8 +17,7 @@
   - [Contributing](#contributing)
   - [Questions and Feedback](#questions-and-feedback)
   ## Screenshots
-  ![READme](/relative/path/to/screenshot.jpg?raw=true "Optional Title")
-
+  <img src="https://github.com/jordidaigle/ReadMeGen/blob/master/screenshot.jpg" style=" width:100px ; height:100px " />
 
   ## Installation
   Download (and unpack) or clone the repo, then using a CLI run the node index.js command.
